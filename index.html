@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Smart Restaurant</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="smart.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    </head>
+    <body class="bg-dark">
+        <h1 class="text-center pt-5 text-white "> Welcom For You In <span class="text-warning">Smart Restaurant</span></h1>
+        <p class="text-center mt-.5 text-white">Choose your favorite meal and we send it to your home</p>
+        <div class="container bg-white mt-5 mb-3 pt-3 pb-3 rounded">
+            <div class="shadow-lg p-3 m-3">
+                <h4>Pizza section</h4>
+                <img id="image" alt="chicken pizza" price="100" src="image/chicken pizza.jpg" class="rounded-circle" width="100" height="100px" data-toggle="tooltip" title="chicken pizza 
+price is: 100 LE ">
+                <img id="img" alt="mix-chies pizza" price="150" src="image/mix-chies pizza.jpg" class="rounded-circle" width="100" height="100px" data-toggle="tooltip" title="mix-chies pizza
+price is: 150 LE">
+                <img id="img" alt="pepperoni pizza" price="130" src="image/pepperoni pizza.jpg" class="rounded-circle" width="100" height="100px" data-toggle="tooltip" title="pepperoni pizza
+price is: 130 LE">
+                <img id="img" alt="classic cheese pizza" price="150" src="image/classic cheese pizza.jfif" class="rounded-circle" width="100" height="100px" data-toggle="tooltip" title="classic cheese pizza
+price is: 150 LE">
+                <img id="img" alt="prosciutto pizza" price="95" src="image/prosciutto pizza.jfif" class="rounded-circle" width="100" height="100px" data-toggle="tooltip" title="prosciutto pizza
+price is: 95 LE">
+                <img id="img" alt="extra-crispy bar-style totortilla pizza" price="130" src="image/extra-crispy bar-style totortilla pizza.jfif" class="rounded-circle" width="100" height="100px" data-toggle="tooltip" title="extra-crispy bar-style totortilla pizza
+price is: 130 LE">
+            </div>
+            <div class="shadow-lg p-3 m-3">
+                <h4>Fast-food section</h4>
+                <img id="img" alt="chicken inasal" price="60" src="image/chicken inasal.jpg" class="rounded-circle" width="100" height="100px" data-toggle="tooltip" title="chicken inasal
+price is: 60 LE">
+                <img id="img" alt="chicken with vegetables" price="70" src="image/chicken with vegetables.jpg" class="rounded-circle" width="100" height="100px" data-toggle="tooltip"  title="chicken with vegetables
+price is: 70 LE">
+                <img id="img" alt="chicken" price="150" src="image/chicken.jpg" class="rounded-circle" width="100" height="100px" data-toggle="tooltip" title="chicken
+price is: 150 LE">
+                <img id="img" alt="chicken-borger" price="210" src="image/chicken-borger.jpg" class="rounded-circle" width="100" height="100px" data-toggle="tooltip" title="chicken-borger
+price is: 210 LE">
+                <img id="img" alt="shawarma box" price="250" src="image/shawarma box.jpg" class="rounded-circle" width="100" height="100px" data-toggle="tooltip" title="shawarma box
+price is: 250 LE">
+                <img id="img" alt="spaghetti and meatballs" price="140" src="image/spaghetti and meatballs.jpg" class="rounded-circle" width="100" height="100px" data-toggle="tooltip" title="spaghetti and meatballs
+price is: 140 LE">
+            </div>
+            <div class="shadow-lg p-3 m-3">
+                <h4>sweets section</h4>
+                <img id="img" alt="molten cake" price="80" src="image/molten cake.jpg" class="rounded-circle" width="100" height="100px" data-toggle="tooltip" title="molten cake
+price is: 80 LE">
+                <img id="img" alt="Waffles with raspberry" price="120" src="image/Waffles with raspberry.jpg" class="rounded-circle" width="100" height="100px" data-toggle="tooltip" title="Waffles with raspberry
+price is: 210 LE">
+                <img id="img" alt="pancake" price="70" src="image/pancake.jpg" class="rounded-circle" width="100" height="100px" data-toggle="tooltip" title="pancake
+price is: 70 LE">
+                <img id="img" alt="Cinnabon" price="90" src="image/Cinnabon.jpg" class="rounded-circle" width="100" height="100px" data-toggle="tooltip" title="Cinnabon 
+price is: 90 LE">
+            </div>
+        </div>
+        <div class="d-block" style="visibility: hidden;" id="space">   </div>
+        <div class="container shadow-lg bg-secondary mb-5 pl-4 pt-3 pb-3 rounded" style="min-height: 30px;"  >
+            <p class="text-white font-weight-bold">your order:</p>
+            <div id="box" class="text-warning shadow"></div>
+            <button id="show" class="mx-auto btn btn-outline-warning mt-3" style="display: none;" >Show Tatle Price</button>
+            <div id="totalprice" class="bg-white mx-auto mt-2 rounded shadow-lg p-1 font-weight-bold w-25 text-center" style="display:none"></div>
+        </div>
+        <button class=" container btn btn-block btn-warning mb-5 p-3" style="display: none;" id="order">Start Order</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="smart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
