@@ -1,5 +1,5 @@
 body{
-    background: url("image/aaaa4.jfif");
+    background: url("../image/aaaa4.jfif");
     background-size: cover;
     background-attachment: fixed;
     background-position: 0 -460px;
@@ -11,10 +11,9 @@ body::after{
     height: 100%;
     position: absolute;
     top: 0;
+    bottom: 0;
+    left: 0;
     content: "";
     z-index: -1;
     background-color: #000000a1;
-}
-.arrow{
-    transform: rotate(90deg);
 }
